@@ -24,12 +24,12 @@ body{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  filter: invert(.30)
+  filter: invert(1)
 }
   
 .amz-search-button{
   padding: 10px;
-  height: 40px;
+  height: 44px;
   width: 45px;
   background-image: url("/Images-amzon/amz-search.svg");
   background-size: 23px;
@@ -39,6 +39,7 @@ body{
   border: 2px thick black;
   font-size: 18px;
   cursor: pointer;
+  border-radius: 0px 6px 6px 0px;
 
 }
 .amz-searchBar{
@@ -78,7 +79,7 @@ body{
   color: #f0f0f0;
   width: 114px;
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 .amzCart{
@@ -103,4 +104,18 @@ body{
   height: 20px;
   background-position: center;
   filter: invert(1);
+}
+.amz-nav-signin{
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+.amz-top-signin{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.amz-bottom-signin{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
